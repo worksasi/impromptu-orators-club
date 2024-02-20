@@ -1,0 +1,42 @@
+body, html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b6cddd;
+}
+
+.container {
+    text-align: center;
+}
+
+#talkingPoint {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8d9da9 ;
+}
+
+button:hover {
+    background-color: #556d7e;
+}
+
+/* Add or adjust from previous CSS */
+#talkingPointContainer {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #919191;
+    border-radius: 5px;
+}
+
